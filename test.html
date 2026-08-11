@@ -20,12 +20,24 @@
 <br><br><br><br><br><br><br><br><br><br>
 <h2 id="contact">Contact Info (聯絡方式)</h2>
 
-<!-- 文字与图片分行，整体同一个点击链接 -->
-<a target="_blank" rel="noopener noreferrer" href="./rick.html">
+<a href="#" onclick="playRickroll();return false;">
 Click here to go to Google
-<br>
 <img src="G_logo.jpg" width="50">
 </a>
+
+<iframe id="rickPlayer" style="display:none;width:560px;height:315px;"
+src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&loop=1"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture‑in‑picture"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen frameborder="0">
+</iframe>
+
+<script>
+function playRickroll(){
+    const player = document.getElementById("rickPlayer");
+    player.style.display = "block";
+}
+</script>
 
 </body>
 </html>
