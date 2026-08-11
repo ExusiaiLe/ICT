@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>My GitHub Personal Website</title>
+<meta charset="utf-8">
+<title>My Personal Profileヽ(ﾟ∀ﾟ)ﾉ</title>
 </head>
 <body>
-    <h1>Welcome to my website!</h1>
-    <p>This is the first test page created via GitHub Pages.</p>
+<h1>My Personal Profileヽ(ﾟ∀ﾟ)ﾉ</h1>
+<a href="#about">About Me</a> |
+<a href="#portfolio">My Portfolio</a> |
+<a href="#contact">Contact Info</a>
+<br><br>
+<h2 id="about">About Me (關於我)</h2>
+<p>這是我的自我介紹。|_･ )و ₎₎</p>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<h2 id="portfolio">My Portfolio (我的作品)</h2>
+<iframe src="schedule.html" width="560" height="315"></iframe>
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<h2 id="contact">Contact Info (聯絡方式)</h2>
+<a href="#" onclick="playRickroll();return false;">
+Click here to go to Google
+<img src="G_logo.jpg" width="50">
+</a>
+<iframe id="rickPlayer" style="display:none;width:560px;height:315px;"
+src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&loop=1"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture‑in‑picture"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen frameborder="0">
+</iframe>
+<script>
+function playRickroll(){
+    const player = document.getElementById("rickPlayer");
+    player.style.display = "block";
+}
+</script>
 </body>
 </html>
