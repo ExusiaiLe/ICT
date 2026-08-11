@@ -1,0 +1,4 @@
+<span onclick="showRick()" style="color:#0000ee; text-decoration:underline; cursor:pointer;">
+Click here to go to Google
+</span>
+<br>
