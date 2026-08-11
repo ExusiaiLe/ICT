@@ -19,9 +19,28 @@
 <br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br>
 <h2 id="contact">Contact Info (聯絡方式)</h2>
-<a target="_blank" rel="noopener noreferrer" href="./你被骗了.html">
-Click here to go to Google
-<img src="G_logo.jpg" width="50">
+
+<p>Have any questions? <span onclick="showRick()" style="color:#0000ee; text-decoration:underline; cursor:pointer;">Click here to go to Google</span>; or</p>
+<p>Click the icon
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+<img src="G_logo.jpg" width="50" style="vertical-align:middle;">
 </a>
+to find the answers!</p>
+
+<div id="rickContainer" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;background:#000;z-index:999;">
+<iframe width="100%" height="100%" frameborder="0"
+src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&loop=1"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+</div>
+
+<script>
+function showRick(){
+    document.getElementById("rickContainer").style.display = "block";
+}
+</script>
+
 </body>
 </html>
